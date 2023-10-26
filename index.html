@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <style>
+     
+        .bgr
+        {
+           
+            background-image: url("img/bg.webp" );
+            background-repeat: no-repeat;
+            background-size: 100%;
+            text-align: center;
+           
+            
+        }
+       
+        .right
+        {
+            color: rgb(212, 213, 213);
+            text-align: right;
+            margin-right: 150px;
+
+            
+        }
+        .navigation
+        {
+            color: rgb(213, 213, 213);
+            
+            
+        }
+        .logo
+        {
+           text-align: center;
+           width: 100%;
+           height: 100%;
+           
+        }
+        .mh1
+        {
+            text-align: center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 40px;
+            font-weight: 400;
+            
+            
+
+        }
+        .subh1
+        {
+            text-align: center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 40px;
+            font-weight:400;
+            margin-top: 75px;
+            color: rgb(10, 10, 10);
+            
+        }
+        .p1
+        {
+            text-align: center;
+            color: gray;
+            font-size: 20px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        li
+        {
+            display:inline;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 20px 60px 20px 0px;
+            font-size: 17px;
+            width:50px; 
+        }
+        .b1
+        {
+            padding: 2rem 2.4rem;
+            border-radius: 0.8rem;
+            background: rgb(255, 255, 255);
+            border: 1px solid rgb(232, 232, 232);
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-bottom: 1.5rem;
+            margin-left: 7px;
+            margin-right:7px;
+            justify-content: space-between;
+            cursor: pointer;
+            box-sizing: border-box;     
+            padding-left: 10px;
+           
+        }
+        
+        
+       
+        .s1
+        {
+            justify-content: space-between;
+            padding-top: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            text-align: center;
+            padding-bottom: 0px;
+            
+
+        }
+        
+        .ab
+        {
+            cursor: pointer;
+        }
+       .c1
+        {
+            padding: 1rem 3.4rem;
+            border-radius: 0.8rem;
+            background: rgb(255, 255, 255);
+            border: 1px solid rgb(232, 232, 232);
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-bottom: 1rem;
+            margin-right: 10px;
+            cursor: pointer;
+            
+            
+        } 
+      .allc
+      {
+        margin-left: 150px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 35px;
+        text-align: left;
+        /* padding: 50px; */
+        
+      }
+   
+      .zomaveres
+      {
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        margin-left: 90px;
+        float: left;
+        padding-top: 50px;
+        cursor: pointer;
+        text-align: left;
+        
+      }
+      .imgb
+      {
+        padding-top: 10px;
+        padding-right: 1100px;
+      }
+      .social
+      {
+        padding-top: 0px;
+        cursor: pointer;
+        padding-right: 54px;
+      }
+      .HED
+      {
+        /* text-align: center; */
+        padding-top: 51px;
+        font-family:Okra, Helvetica, sans-serif ;
+        font-size: 1rem;
+        padding-right: 20px;
+      }
+      .appstore
+      {
+        padding-top: 10px;
+        text-align: center;
+        cursor: pointer;
+        padding-left: 0px;
+
+      }
+      .playstore{
+        padding-top: 10px;
+        cursor: pointer;
+        padding-left: 274px;
+      }
+      .line
+      {
+        width: 1275px;
+        
+      }
+    .foot
+    {
+        padding-left: 100px;
+        padding-right: 100px;
+        
+    }
+ .allfoot
+ {
+    font-family:Okra, Helvetica, sans-serif ;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+ }
+  
+    footer
+    {
+        background-color: rgb(248, 248, 248);
+        padding-top: 30px;
+    }
+    .para
+    {
+        color: gray;
+    }
+    .down
+    {
+        padding-top: 70px;
+    }
+
+
+
+    .button1
+        {
+           
+            margin-left:40px;
+            border: 2px solid rgb(223, 223, 223);
+            background-color: aliceblue;
+            border-radius: 10.8px;
+            padding: 20px 0px;
+            padding-left: 10px;
+            text-align: left;
+            padding-right: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: white;
+            margin-top: 30px;
+            cursor: pointer;
+            
+           
+            
+
+        }
+        .arrow
+        {
+            padding-left: 100px;
+            padding-right: 10px;
+        }
+        .arrow1
+        {
+            padding-left: 50px;
+            padding-right: 10px;
+        }
+        .arrow2
+        {
+            padding-left: 90px;
+            padding-right: 10px;
+        }
+  
+        .arrow3
+        {
+            padding-left: 60px;
+            padding-right: 10px;
+        }
+  
+        .arrow4
+        {
+            padding-left: 60px;
+            padding-right: 10px;
+        }
+  
+        .arrow5
+        {
+            padding-left: 65px;
+            padding-right: 10px;
+        }
+        .arrow6
+        {
+            padding-left: 76px;
+            padding-right: 10px;
+        }
+        .arrow7
+        {
+            padding-left: 45px;
+            padding-right: 10px;
+        }
+        .arrow8
+        {
+            padding-left: 55px;
+            padding-right: 10px;
+        }
+        .arrow9
+        {
+            padding-left: 95px;
+            padding-right: 10px;
+        }
+        .arrow10
+        {
+            padding-left: 36px;
+            padding-right: 10px;
+        }
+        .arrow11
+        {
+            padding-left: 42px;
+            padding-right: 10px;
+        }
+        .arrow12
+        {
+            padding-left: 85px;
+            padding-right: 10px;
+        }
+        .arrow13
+        {
+            padding-left: 50px;
+            padding-right: 10px;
+        }
+        .arrow14 
+        {
+            padding-left: 75px;
+            padding-right: 10px;
+        }
+        .arrow15
+        {
+            padding-left: 70px;
+            padding-right: 10px;
+        }
+        .arrow16
+        {
+            padding-left: 68px;
+            padding-right: 10px;
+        }
+        .arrow17
+        {
+            padding-left: 58px;
+            padding-right: 10px;
+        }
+        .arrow18
+        {
+            padding-left: 48px;
+            padding-right: 10px;
+        }
+        .arrow19
+        {
+            padding-left: 80px;
+            padding-right: 10px;
+        }
+        .arrow20
+        {
+            padding-left: 36px;
+            padding-right: 10px;
+        }
+        .arrow21
+        {
+            padding-left: 125px;
+            padding-right: 10px;
+        }
+        .arrow22
+        {
+            padding-left: 65px;
+            padding-right: 10px;
+        }
+        .arrow23
+        {
+            padding-left: 85px;
+            padding-right: 10px;
+        }
+        .arrow24
+        {
+            padding-left: 80px;
+            padding-right: 10px;
+        }
+        .arrow25
+        {
+            padding-left: 90px;
+            padding-right: 10px;
+        }
+        .arrow26
+        {
+            padding-left: 70px;
+            padding-right: 10px;
+        }
+        .arrow27
+        {
+            padding-left: 68px;
+            padding-right: 10px;
+        }
+        .arrow28
+        {
+            padding-left: 98px;
+            padding-right: 10px;
+        }
+        .arrow29
+        {
+            padding-left: 76px;
+            padding-right: 10px;
+        }
+        .arrow30
+        {
+            padding-left: 110px;
+            padding-right: 10px;
+        }
+        .arrow31
+        {
+            padding-left: 75px;
+            padding-right: 10px;
+        }
+        .arrow32
+        {
+            padding-left: 85px;
+            padding-right: 10px;
+        }
+        .arrow33
+        {
+            padding-left: 80px;
+            padding-right: 10px;
+        }
+        .arrow34
+        {
+            padding-left: 55px;
+            padding-right: 10px;
+        }
+        .arrow35
+        {
+            padding-left: 95px;
+            padding-right: 10px;
+        }
+        .arrow36
+        {
+            padding-left: 95px;
+            padding-right: 10px;
+        }
+        .arrow37
+        {
+            padding-left: 80px;
+            padding-right: 10px;
+        }
+        .arrow38
+        {
+            padding-left: 88px;
+            padding-right: 10px;
+        }
+        .arrow39
+        {
+            padding-left: 80px;
+            padding-right: 10px;
+        }
+        .arrow40
+        {
+            padding-left: 70px;
+            padding-right: 10px;
+        }
+        .arrow41
+        {
+            padding-left: 62px;
+            padding-right: 10px;
+        }
+        .arrow42
+        {
+            padding-left: 120px;
+            padding-right: 10px;
+        }
+        .arrow43
+        {
+            padding-left: 85px;
+            padding-right: 10px;
+        }
+        .arrow44
+        {
+            padding-left: 90px;
+            padding-right: 10px;
+        }
+        .arrow45
+        {
+            padding-left: 128px;
+            padding-right: 10px;
+        }
+        .arrow46
+        {
+            padding-left: 87px;
+            padding-right: 10px;
+        }
+        .arrow47
+        {
+            padding-left: 80px;
+            padding-right: 10px;
+        }
+        .arrow48
+        {
+            padding-left: 100px;
+            padding-right: 10px;
+        }
+        .arrow49
+        {
+            padding-left: 108px;
+            padding-right: 10px;
+        }
+        .arrow50
+        {
+            padding-left: 70px;
+            padding-right: 10px;
+        }
+        .arrow51
+        {
+            padding-left: 102px;
+            padding-right: 10px;
+        }
+        .arrow52
+        {
+            padding-left: 105px;
+            padding-right: 10px;
+        }
+        .arrow53
+        {
+            padding-left: 90px;
+            padding-right: 10px;
+        }
+        .arrow54
+        {
+            padding-left: 85px;
+            padding-right: 10px;
+        }
+        .arrow55
+        {
+            padding-left: 105px;
+            padding-right: 10px;
+        }
+        .arrow56
+        {
+            padding-left: 95px;
+            padding-right: 10px;
+        }
+        .arrow57
+        {
+            padding-left: 105px;
+            padding-right: 10px;
+        }
+        .arrow58
+        {
+            padding-left: 110px;
+            padding-right: 10px;
+        }
+        .arrow59
+        {
+            padding-left: 70px;
+            padding-right: 10px;
+        }
+        .arrow60
+        {
+            padding-left: 130px;
+            padding-right: 10px;
+        }
+        .arrow61
+        {
+            padding-left: 90px;
+            padding-right: 10px;
+        }
+        .arrow62
+        {
+            padding-left: 100px;
+            padding-right: 10px;
+        }
+        .arrow63
+        {
+            padding-left: 122px;
+            padding-right: 10px;
+        }
+        .arrow64
+        {
+            padding-left: 68px;
+            padding-right: 10px;
+        }
+        .arrow65
+        {
+            padding-left: 114px;
+            padding-right: 10px;
+        }
+        .arrow66
+        {
+            padding-left: 108px;
+            padding-right: 10px;
+        }
+        .arrow67
+        {
+            padding-left: 110px;
+            padding-right: 10px;
+        }
+        .arrow68
+        {
+            padding-left: 99px;
+            padding-right: 10px;
+        }
+        .arrow69
+        {
+            padding-left: 118px;
+            padding-right: 10px;
+        }
+        .arrow70
+        {
+            padding-left: 88px;
+            padding-right: 10px;
+        }
+        .arrow71
+        {
+            padding-left: 102px;
+            padding-right: 10px;
+        }
+        .arrow72
+        {
+            padding-left: 117px;
+            padding-right: 10px;
+        }
+        .arrow73
+        {
+            padding-left: 105px;
+            padding-right: 10px;
+        }
+        .arrow74
+        {
+            padding-left: 80px;
+            padding-right: 10px;
+        }
+        .arrow75
+        {
+            padding-left: 125px;
+            padding-right: 10px;
+        }
+        .arrow76
+        {
+            padding-left: 99px;
+            padding-right: 10px;
+        }
+        .arrow77
+        {
+            padding-left: 90px;
+            padding-right: 10px;
+        }
+        .arrow78
+        {
+            padding-left: 121px;
+            padding-right: 10px;
+        }
+        .arrow79
+        {
+            padding-left: 73px;
+            padding-right: 10px;
+        }
+        .arrow80
+        {
+            padding-left: 85px;
+            padding-right: 10px;
+        }
+        .arrow81
+        {
+            padding-left: 95px;
+            padding-right: 10px;
+        }
+        .arrow82
+        {
+            padding-left: 100px;
+            padding-right: 10px;
+        }
+        .arrow83
+        {
+            padding-left: 90px;
+            padding-right: 10px;
+        }
+        .arrow84
+        {
+            padding-left: 90px;
+            padding-right: 10px;
+        } 
+        .arrow851
+        {
+            padding-left: 110px;
+            padding-right: 10px;
+        } 
+        .arrow85
+        {
+            padding-left: 130px;
+            padding-right: 0px;
+        }
+        .arrow86
+        {
+            padding-left: 100px;
+            padding-right: 10px;
+        }
+        .arrow87
+        {
+            padding-left: 130px;
+            padding-right: 10px;
+        }
+        .arrow88
+        {
+            padding-left: 95px;
+            padding-right: 10px;
+        }
+        .arrow89
+        {
+            padding-left: 135px;
+            padding-right: 10px;
+        }
+        .arrow90
+        {
+            padding-left: 36px;
+            padding-right: 10px;
+        }
+        .arrow91
+        {
+            padding-left: 75px;
+            padding-right: 10px;
+        }
+        .arrow92
+        {
+            padding-left: 105px;
+            padding-right: 10px;
+        }
+        .arrow93
+        {
+            padding-left: 135px;
+            padding-right: 10px;
+        }
+        .arrow94
+        {
+            padding-left: 90px;
+            padding-right: 10px;
+        }
+        .arrow95
+        {
+            padding-left: 90px;
+            padding-right: 10px;
+        }
+        .arrow96
+        {
+            padding-left: 60px;
+            padding-right: 10px;
+        }
+        .arrow97
+        {
+            padding-left: 68px;
+            padding-right: 10px;
+        }
+        .arrow98
+        {
+            padding-left: 110px;
+            padding-right: 10px;
+        }
+        .arrow99
+        {
+            padding-left: 100px;
+            padding-right: 10px;
+        }
+        .arrow100
+        {
+            padding-left: 120px;
+            padding-right: 10px;
+        }
+        .arrow101
+        {
+            padding-left: 74px;
+            padding-right: 10px;
+        }
+        .arrow102
+        {
+            padding-left: 100px;
+            padding-right: 10px;
+        }
+        .arrow103
+        {
+            padding-left: 50px;
+            padding-right: 10px;
+        }
+        .arrow104
+        {
+            padding-left: 80px;
+            padding-right: 10px;
+        }
+        .arrow105
+        {
+            padding-left: 60px;
+            padding-right: 00px;
+        }
+        .arrow106
+        {
+            padding-left: 118px;
+            padding-right: 10px;
+        }
+        .arrow107
+        {
+            padding-left: 30px;
+            padding-right: 10px;
+        }
+  
+        .arrow108
+        {
+            padding-left: 50px;
+            padding-right: 10px;
+        }
+  
+
+    </style>
+</head>
+<body class="bgr" >
+
+        <div class="navigation">
+
+            <div class="right">
+               <li class="ab">Add restaurant</li>
+                
+                <li class="ab">Log in</li>
+                
+                <li class="ab">Sign up</li>
+            
+            </div>
+            
+            <br><br><br><br><br><br><br><br><br><br>
+            
+            <div class="logo">
+                <img src="img/zomato logo.webp" alt="logo" width="300" >
+            </div>
+            <div >
+                <h3 class="mh1">Find the best restaurants, cafes <br> and bars in india</h3>
+            </div>
+            
+            <br> <br><br><br><br><br><br><br><br> <br>
+            
+        </div>
+    
+    </div>
+
+    <div >
+         <br><br>
+            <h3 class="subh1">Popular locations in <img src="img/india.webp" alt="" width="50">  <strong>India</strong></h3>
+            <div class="p1">
+                <p>
+                    From swanky upscale restaurants to the cosiest hidden gems serving the most incredible food, <br>
+                    Zomato covers it all. Explore menus, and millions of restaurant photos and reviews from users<br>
+                    just like you, to find your next great meal.
+
+                </p>
+            </div>
+    </div>
+    <div class="buttons">
+        <div class="s1">
+            
+            <button class="button1"><li> Agra Restaurants </li><li class="arrow"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li> Ahmedabad Restaurants </li><li class="arrow1"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li> Ajmer Restaurants </li><li class="arrow2"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li> Alappuzha Restaurants </li><li class="arrow3"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Allahabad Restaurants </li><li class="arrow4"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Amravati Restaurants </li><li class="arrow5"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Amritsar Restaurants </li><li class="arrow6"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Aurangabad Restaurants </li><li class="arrow7"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Bengaluru Restaurants </li><li class="arrow8"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Bhopal Restaurants </li><li class="arrow9"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Bhubaneswar Restaurants </li><li class="arrow10"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Chandigarh Restaurants </li><li class="arrow11"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Chennai Restaurants </li><li class="arrow12"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Coimbatore Restaurants </li><li class="arrow13"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Cuttack Restaurants </li><li class="arrow14"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Darjeeling Restaurants </li><li class="arrow15"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Dehradun Restaurants </li><li class="arrow16"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Delhi NCR Restaurants </li><li class="arrow17"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Dharamshala Restaurants </li><li class="arrow18"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Gangtok Restaurants </li><li class="arrow19"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Dharamshala Restaurants </li><li class="arrow20"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Goa Restaurants </li><li class="arrow21"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Gorakhpur Restaurants </li><li class="arrow22"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Guntur Restaurants </li><li class="arrow23"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Guwahati Restaurants </li><li class="arrow24"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Gwalior Restaurants </li><li class="arrow25"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Haridwar Restaurants </li><li class="arrow26"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Hyderabad Restaurants </li><li class="arrow27"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Indore Restaurants </li><li class="arrow28"> <img src="arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Jabalpur Restaurants </li><li class="arrow29"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Jaipur Restaurants </li><li class="arrow30"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Jalandhar Restaurants </li><li class="arrow31"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Jammu Restaurants </li><li class="arrow32"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Jamnagar Restaurants </li><li class="arrow33"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Jamshedpur Restaurants </li><li class="arrow34"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Jhansi Restaurants </li><li class="arrow35"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Jodhpur Restaurants </li><li class="arrow36"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Junagadh Restaurants </li><li class="arrow37"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Kanpur Restaurants </li><li class="arrow38"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Khajuraho Restaurants </li><li class="arrow39"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Khamgaon Restaurants </li><li class="arrow40"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Kharagpur Restaurants </li><li class="arrow41"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Kochi Restaurants </li><li class="arrow42"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Kolhapur Restaurants </li><li class="arrow43"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Kolkata Restaurants </li><li class="arrow44"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Kota Restaurants </li><li class="arrow45"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Lucknow Restaurants </li><li class="arrow46"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Ludhiana Restaurants </li><li class="arrow47"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Madurai Restaurants </li><li class="arrow48"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Manali Restaurants </li><li class="arrow49"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Mangalore Restaurants </li><li class="arrow50"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Manipal Restaurants </li><li class="arrow51"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Meerut Restaurants </li><li class="arrow52"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Mumbai Restaurants </li><li class="arrow53"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Mussoorie Restaurants </li><li class="arrow54"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Mysore Restaurants </li><li class="arrow55"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Nagpur Restaurants </li><li class="arrow56"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Nainital Restaurants </li><li class="arrow57"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Nashik Restaurants </li><li class="arrow58"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Neemrana Restaurants </li><li class="arrow59"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Ooty Restaurants </li><li class="arrow60"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Palakkad Restaurants </li><li class="arrow61"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Patiala Restaurants </li><li class="arrow62"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Patna Restaurants </li><li class="arrow63"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Puducherry Restaurants </li><li class="arrow64"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Pune Restaurants </li><li class="arrow65"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Pushkar Restaurants </li><li class="arrow66"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Raipur Restaurants </li><li class="arrow67"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Rajkot Restaurants </li><li class="arrow68"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Ranchi Restaurants </li><li class="arrow69"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Rishikesh Restaurants </li><li class="arrow70"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Salem Restaurants </li><li class="arrow71"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Shimla Restaurants </li><li class="arrow72"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Siliguri Restaurants </li><li class="arrow73"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Srinagar Restaurants </li><li class="arrow74"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Surat Restaurants </li><li class="arrow75"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Thrissur Restaurants </li><li class="arrow76"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Tirupati Restaurants </li><li class="arrow77"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Trichy Restaurants </li><li class="arrow78"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Trivandrum Restaurants </li><li class="arrow79"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Udaipur Restaurants </li><li class="arrow80"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Vadodara Restaurants </li><li class="arrow81"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Varanasi Restaurants </li><li class="arrow82"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Vellore Restaurants </li><li class="arrow83"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Vijayawada Restaurants </li><li class="arrow84"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            <button class="button1"><li>Salem Restaurants </li><li class="arrow851"> <img src="img/arrow right.png" alt="" width="15px"> </li></button>
+            
+        </div>
+        
+    </div>
+    <div>
+        <h3 class="allc">All Countries</h3>
+    <div class="countries">
+
+                <button class="c1"><img src="img/india.webp"  alt="" width="50px">India  <li class="arrow85"><img src="img/arrow right.png" alt="" width="15px"> </li> </button>
+                <button class="c1"><img src="img/aus.png" alt="" width="50px">Australia <li class="arrow86"><img src="img/arrow right.png" alt="" width="15px"> </li> </button>
+                <button class="c1"><img src="img/braz.webp" alt="" width="50px"> Brasil<li class="arrow87"><img src="img/arrow right.png" alt="" width="15px"> </li> </button>
+                <button class="c1"><img src="img/can.webp" alt=""width="50px"> Canada <li class="arrow88"><img src="img/arrow right.png" alt="" width="15px"> </li></button>
+                <button class="c1"><img src="img/chili.webp" alt=""width="50px"> Chile<li class="arrow89"><img src="img/arrow right.png" alt="" width="15px"> </li> </button>
+                <button class="c1"><img src="img/czech re.webp" alt=""width="50px"> Czech Republic <li class="arrow90"><img src="aimg/rrow right.png" alt="" width="15px"> </li></button>
+                <button class="c1"><img src="img/indio.webp" alt=""width="50px"> Indonesia <li class="arrow91"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/iear land.png" alt=""width="50px"> Ireland <li class="arrow92"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/ittali.webp" alt=""width="50px"> Italy<li class="arrow93"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/lebanon.webp" alt=""width="50px">  Lebanon <li class="arrow94"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/mal.webp" alt=""width="50px"> Malaysia <li class="arrow95"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/newz.png" alt=""width="50px">  New Zealand<li class="arrow96"> <img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/phil.webp" alt=""width="50px">  Philippines <li class="arrow97"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/pollend.webp" alt=""width="50px">  Poland<li class="arrow98"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/portugal.png" alt=""width="50px">  Portugal <li class="arrow99"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/quater.webp" alt=""width="50px">  Qatar<li class="arrow100"><img src="img/arrow right.png" alt="" width="15px"></li> </button>
+                <button class="c1"><img src="img/singa.webp" alt=""width="50px">  Singapore <li class="arrow101"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/slovakiya.webp" alt=""width="50px">  Slovakia <li class="arrow102"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/southafrica.webp" alt=""width="50px">  South Africa <li class="arrow103"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/srilanka.webp" alt=""width="50px">  Sri Lanka <li class="arrow104"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/turkey.webp" alt=""width="50px">  Turkey<li class="arrow105"><li><img src="img/arrow right.png" alt="" width="15px"></li> </button>
+                <button class="c1"><img src="img/uae.webp" alt=""width="50px">  UAE <li class="arrow106"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/uk.png" alt=""width="50px">  United Kingdom<li class="arrow107"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+                <button class="c1"><img src="img/us.png" alt=""width="50px">  United States <li class="arrow108"><img src="img/arrow right.png" alt="" width="15px"></li></button>
+
+    </div>
+</div>
+<footer>
+    <img class="imgb" src="img/zomatoblack.webp" alt="error" width="120">
+    <div>
+        
+        <aside>
+            <div class="about">
+                
+                <aside class="allfoot">
+                   
+                    <div class="zomaveres">
+                        <li>ABOUT ZOMATO</li>
+                        <div class="para">
+                            <p>Who are we</p>
+                            <p>Blog</p>
+                            <p>Work with us</p>
+                            <p>Investor Relation</p>
+                            <p>Report Fraud</p>
+                            <p>Press kit</p>
+                            <p>Contact us</p>
+                        </div>
+        
+                    </div>    
+                    <div class="zomaveres">
+                        <li>ZOMAVERSE</li>
+                        <div class="para">
+                            <p>Zomato</p>
+                            <p>Blinkit</p>
+                            <p>Feeding India</p>
+                            <p>Hyperpure</p>
+                            <p>Zomaland</p>
+                        </div>
+        
+                    </div>    
+                    <div class="zomaveres">
+                        <li>FOR RESTAURANTS</li>
+                        <div class="para">
+                            <p>Partner With Us</p>
+                            <p>Apps For You</p>
+                            <p>FOR ENTERPRISES</p>
+                        </div>
+                        <li>Investor Relation</li>
+                        <div class="para">
+                            <p>Zomato For Enterprise</p>
+                        </div>
+        
+                    </div>    
+                    <div class="zomaveres">
+                        <li>LEARN MORE</li>
+                        <div class="para">
+                            <p>Privacy</p>
+                            <p>Security</p>
+                            <p>Terms</p>
+                            <p>Sitemap</p>
+                        </div>
+                     </div>                        
+                    <div class="social">
+                        <h5 class="HED">SOCIAL LINKS</h5>
+                       
+                        <img src="img/linked in.png" alt="" width="30">
+                        <img src="img/insta.png" alt="" width="30">
+                        <img src="img/twitter.png" alt="" width="30">
+                        <img src="img/youtube.png" alt="" width="30">
+                        <img src="img/facebook.png" alt="" width="30">
+                        <img class="appstore" src="img/appstore.webp" alt="" width="180">
+                        <img class="playstore" src="img/gplay.webp" alt="" width="180">
+                        
+                    </div>
+                </aside>
+            </div>
+        </aside>
+        <div class="down">
+            <hr class="line">
+            <p class="foot">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+    
+</body>
+</html>
